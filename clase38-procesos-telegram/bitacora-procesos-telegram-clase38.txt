@@ -1,0 +1,44 @@
+BITÁCORA DE PROCESOS Y TELEGRAM - CLASE 38
+
+Nombre: Yesenia Bolaños
+Fecha:09-06-2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué es un proceso?
+Respuesta:
+
+2. ¿Qué significa que un proceso esté corriendo?
+Respuesta:Significa que el programa está ejecutándose y usando recursos del sistema, como CPU y memoria.
+
+3. ¿Qué puede pasar si un proceso se detiene?
+Respuesta:Si un proceso se detiene, la aplicación o servicio deja de funcionar hasta que se reinicie.
+
+4. ¿Qué comandos usé para observar procesos?
+Respuesta:ps aux | grep node
+pgrep node
+top
+
+5. ¿Qué es un bot de Telegram?
+Respuesta:Un bot de Telegram es una cuenta automatizada que responde mensajes o realiza tareas sin intervención humana.
+
+6. ¿Qué es un token?
+Respuesta:Un token es una clave única de acceso o autenticación que permite identificar y autorizar una aplicación o servicio.
+
+7. ¿Por qué el token no debe publicarse?
+Respuesta: Porque cualquier persona que lo obtenga podría acceder y controlar el servicio o la aplicación asociada.
+
+8. ¿Dónde se guardó el token?
+Respuesta:en un archivo .env
+
+9. ¿Por qué .env debe estar en .gitignore?
+Respuesta:Porque evita que credenciales y datos sensibles se suban al repositorio de Git y queden expuestos.
+
+10. ¿Qué diferencia hay entre telegram-test.js y bot-observacion.js?
+Respuesta:telegram-test.js: se usa para probar la conexión y el funcionamiento del bot de Telegram.
+bot-observacion.js: contiene la lógica principal del bot, como procesar mensajes o registrar observaciones.
+
+11. ¿Cómo puede servir Telegram a una comunidad digital?
+Respuesta:Telegram puede servir a una comunidad digital para comunicar información, automatizar respuestas y enviar notificaciones de forma rápida.
+
+12. ¿Qué información no debería enviarse por un bot sin protocolo?
+Respuesta:No se deben enviar contraseñas, tokens, datos personales o información confidencial sin medidas de seguridad adecuadas.
