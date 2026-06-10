@@ -1,0 +1,52 @@
+BITÁCORA OPERATIVA - CLASE 39
+Logs, Git e IA responsable
+
+Nombre: Yesenia Bolaños
+Fecha:10-06-2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué es un log?
+Respuesta:monitorea y ayuda dectetar errores 
+
+2. ¿Por qué un log ayuda a diagnosticar?
+Respuesta:por que nos ayuda a identificar a causa del error 
+
+3. ¿Qué diferencia hay entre INFO, WARN y ERROR?
+Respuesta:INFO: informa eventos normales del sistema.
+WARN: indica una advertencia o posible problema.
+ERROR: señala un fallo que requiere atención.
+
+4. ¿Qué log observé en la práctica?
+Respuesta:INFO: Aplicacion iniciando...
+WARN: Esta es una advertencia de practica.
+ERROR: Este es un error controlado de practica.
+ERROR: Falta TELEGRAM_BOT_TOKEN en las variables de entorno.
+ERROR: Falta TELEGRAM_CHAT_ID en las variables de entorno.
+INFO: Revision de configuracion finalizada.
+
+5. ¿Qué significa el error observado?
+Respuesta: que nos falta el token y el ID 
+
+6. ¿Qué información sensible no debo compartir en logs?
+Respuesta: contraseñas, token claves API y datos personales 
+
+7. ¿Qué comando de Git usé para revisar cambios?
+Respuesta:git status 
+
+8. ¿Qué mensaje de commit usé?
+Respuesta:Clase 39 logs git e IA responsable
+
+9. ¿Qué consulta segura hice a IA?
+Respuesta:si yo te pido que revices por que me da un error puedes revisar todos mis archivos que tenngo en mi repositorio? pOdrias ver mi token y mi ID sin que yo se los comparta?
+
+10. ¿Qué información oculté antes de consultar a IA?
+Respuesta:el token y el ID
+
+11. ¿Qué respondió la IA?
+Respuesta:si yo doy la autorizacion o le pido que revise el proyecto si puede ver nuestro token y nuestro ID 
+
+12. ¿Cómo validé la respuesta?
+Respuesta: investigue mas afondo 
+
+13. ¿Qué aprendí sobre trazabilidad?
+Respuesta:que debo saber como hacerle el prompt para que no acceda a mi infirmacion sensible 
