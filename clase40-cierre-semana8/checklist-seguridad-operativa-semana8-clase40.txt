@@ -1,0 +1,40 @@
+CHECKLIST DE SEGURIDAD OPERATIVA - SEMANA 8
+Clase 40 - Consolidación de evidencia
+
+Nombre:Yesenia Bolaños
+Fecha:11-06-2026
+
+[x] Comprendí qué es un sistema operativo.
+[x] Usé la terminal para navegar carpetas.
+[x] Usé pwd.
+[x] Usé ls.
+[x] Usé cd.
+[x] Usé mkdir.
+[x] Usé touch.
+[x] Usé cat.
+[x] Revisé permisos con ls -l.
+[x] Comprendí propietario, grupo y otros.
+[x] Comprendí permisos r, w y x.
+[x] Comprendí los permisos 600, 644, 664, 755 y 777.
+[x] Comprendí el principio de mínimo privilegio.
+[x] No usé permisos 777 como solución permanente.
+[x] Comprendí qué es un proceso.
+[x] Observé procesos con ps o ps aux.
+[x] Observé procesos con top.
+[x] Comprendí cómo detener un proceso con Ctrl + C.
+[x] Comprendí qué es un log.
+[x] Diferencié INFO, WARN y ERROR.
+[x] Comprendí que los logs pueden contener información sensible.
+[x] Usé Git para registrar cambios.
+[x] Usé git status.
+[x] Realicé commit con mensaje claro.
+[x] Comprendí que .env no debe subirse a GitHub.
+[x] Agregué .env a .gitignore si apliqué práctica.
+[x] Comprendí que un token es una credencial sensible.
+[x ] No publiqué tokens.
+[x] No tomé capturas con credenciales visibles.
+[x] No usé datos personales reales.
+[x] Usé IA sin compartir secretos.
+[x] Comprendí que Telegram puede servir como canal comunitario.
+[x ] Comprendí que no todo debe automatizarse.
+[x] Documenté mis aprendizajes en la bitácora.

@@ -1,0 +1,48 @@
+BITÁCORA DE PRÁCTICA DE TERMINAL - SEMANA 8
+Clase 40 - Consolidación de evidencia
+
+Nombre: Yesenia Bolaños
+Fecha:11-06-2026
+Entorno usado: codespaces
+
+1. ¿Qué aprendí sobre el sistema operativo como base de una plataforma?
+Respuesta:
+
+2. ¿Qué comandos de terminal usé durante la semana?
+Respuesta:cd, ls, git status, cat, top, git status -u, chmod, df -h history, IP -a entre otros
+
+3. ¿Qué aprendí sobre usuarios, grupos y permisos?
+Respuesta:los usuarion pueden acceder al sistema segun los permisos que tenga ese usuario, los grupos es donde se les asigna los mismos permisos a muchas personas y los permisos define quien puede modificar o ejecutar archivos y carpetas 
+
+4. ¿Qué significa mínimo privilegio?
+Respuesta: permiso unicamente a lo estrictamente necesario
+
+5. ¿Por qué un permiso como 777 puede ser riesgoso?
+Respuesta: por que cualquiera puede modificar y correr el programa
+
+6. ¿Qué aprendí sobre procesos?
+Respuesta: que es un programa que esta en ejecucion en el sistema operativo para velo  corrimos el comando ps aux  
+
+7. ¿Qué puede pasar si un proceso se detiene?
+Respuesta: la pagina web deja de funcionar
+
+8. ¿Qué aprendí sobre logs?
+Respuesta: nos ayuda a dectectar fallas o errores 
+
+9. ¿Cómo ayudan los logs al diagnóstico?
+Respuesta:monitorea y dectecta errores
+
+10. ¿Qué aprendí sobre Git y trazabilidad?
+Respuesta: no sayuda a dejar trazabilidad
+
+11. ¿Qué aprendí sobre archivos .env y tokens?
+Respuesta: en el archivo .env guardamos informacion sensible como token contraseñas que no podemos compartir
+
+12. ¿Cómo puede servir Telegram a una comunidad digital?
+Respuesta:como un medio de comunicacion donde pueden enviar anuncion y compartir informacion 
+
+13. ¿Qué cuidados debo tener antes de integrar Telegram con Node.js o n8n?
+Respuesta:proteger el token 
+
+14. ¿Qué fue lo más importante de la Semana 8?
+Respuesta:configuracion del boot de telegram
