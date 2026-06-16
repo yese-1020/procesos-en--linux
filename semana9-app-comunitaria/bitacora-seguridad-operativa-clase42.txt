@@ -1,0 +1,40 @@
+BITÁCORA DE SEGURIDAD OPERATIVA - CLASE 42
+
+Nombre: Yesenia Bolaños
+Fecha:16-06-2026
+
+1. ¿Qué significa seguridad operativa aplicada?
+Respuesta: poner en practica medidas de seguridad para que un sistema o aplicacion funcione de forma segura 
+
+2. ¿Qué es el principio de mínimo privilegio?
+Respuesta: dar los permisos estrictamente necesarios para realizar una funcion
+
+3. ¿Qué significa exposición mínima?
+Respuesta:reducir al maximo visivilidad 0 accesibilidad de informacion sencible 
+
+4. ¿Para qué sirve .gitignore?
+Respuesta:evita subir archivos sensibles 
+
+5. ¿Por qué .env no debe subirse a GitHub?
+Respuesta:por que ahi guardamos  informacion sensible como token y credenciales 
+
+6. ¿Qué datos podrían ser sensibles en este proyecto?
+Respuesta: los tokens 
+
+7. ¿Qué archivos no deberían subirse al repositorio?
+Respuesta:.env y node_modules
+
+8. ¿Qué rutas deberían mantenerse públicas?
+Respuesta:
+
+9. ¿Qué rutas deberían limitar información?
+Respuesta:
+
+10. ¿Qué cambio se hizo en /estado?
+Respuesta: se cambio servicio por mensaje ya nos nos muestra entorno ni detalles internos solo nos muestra el mesaje 
+
+11. ¿Qué muestra /diagnostico y qué no debe mostrar?
+Respuesta:telegram entorno no debe mostrar tokens ni credenciales
+
+12. ¿Qué aprendí sobre proteger credenciales?
+Respuesta:que no deben ser expuestas 
