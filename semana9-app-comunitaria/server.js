@@ -11,6 +11,7 @@ const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 
 app.use(express.json());
 
+
 function existeTokenTelegram() {
   return Boolean(TELEGRAM_BOT_TOKEN);
 }
@@ -51,6 +52,14 @@ app.get("/diagnostico", (req, res) => {
     entorno: APP_ENV,
     telegramConfigurado: existeTokenTelegram(),
     nota: "Esta ruta es de práctica. No muestra tokens ni credenciales."
+  });
+});
+
+app.get("/fallo-controlado", (req, res) => {
+  console.error("ERROR_SIMULADO: Se ejecutó la ruta /fallo-controlado para práctica de diagnóstico.");
+  res.status(500).json({
+    error: "Error simulado",
+    mensaje: "Esta ruta se usa solo para practicar diagnóstico."
   });
 });
 

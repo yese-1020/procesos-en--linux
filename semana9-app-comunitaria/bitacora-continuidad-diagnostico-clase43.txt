@@ -1,0 +1,47 @@
+BITÁCORA DE CONTINUIDAD Y DIAGNÓSTICO - CLASE 43
+
+Nombre:Yesenia Bolaños
+Fecha:17-06-2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué es continuidad operativa?
+Respuesta:es la capacidad de que un servidor siga funcionando de manera estable y disponible incluso si ocurre una falla o problema 
+
+2. ¿Qué es PM2?
+Respuesta:es un administrador de procesos para node.js
+
+3. ¿Qué comando usé para iniciar la aplicación con PM2?
+Respuesta:npx pm2 start server.js --app-semana9
+
+4. ¿Qué comando usé para listar procesos?
+Respuesta:npx pm2 list
+
+5. ¿Qué comando usé para detener la aplicación?
+Respuesta:npx pm2 stop app-semana9
+
+6. ¿Qué comando usé para reiniciar la aplicación?
+Respuesta:npx pm2 restart app-semana9
+
+7. ¿Qué comando usé para revisar logs?
+Respuesta:npx pm2 logs app-semana9 --lisen 20
+
+8. ¿Qué error simulé?
+Respuesta:lo del tokens 
+
+9. ¿Qué mensaje apareció en logs?
+Respuesta:Telegram: token no configurado.
+0|app-sema | ERROR_SIMULADO: Se ejecutó la ruta /fallo-controlado para práctica de diagnóstico.
+
+10. ¿Cuál fue la causa probable del error?
+Respuesta:no configurar el token
+
+11. ¿Cómo corregí el error?
+Respuesta:se elimino el # antes del token en el archivo .env 
+
+12. ¿Qué rutas verifiqué después de corregir?
+Respuesta:http://localhost:3000/estado
+ http://localhost:3000/diagnostico
+ http://localhost:3000/fallo-controlado
+
+13. ¿Qué debo evitar al tomar capturas de logs?
+Respuesta:tokens 
