@@ -1,0 +1,46 @@
+BITÁCORA DE DOCUMENTACIÓN E IA - CLASE 44
+
+Nombre:Yesenia Bolaños
+Fecha:18-06-2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué es un procedimiento técnico?
+Respuesta: es un conjunto de pasos documentados y organizados para realizar una tarea de forma correcta segura y repetible 
+
+2. ¿Por qué documentar evita depender de una sola persona?
+Respuesta:por que se deja el conocimiento registrado facilitando que otra persona entiendan como mantener, operar y continuar con el trabajo
+
+3. ¿Qué diferencia hay entre Codespaces, hosting compartido, VPS y nube?
+Respuesta:Codespaces es un entorno listo para escribir y probar codigo 
+hosting compartido: poco control 
+vps : mas control 
+nube: escalable segun la necesidad 
+
+4. ¿Qué es cPanel?
+Respuesta:un panel de control web para administrar un servidor o hosting sin usar tantos comandos 
+
+5. ¿Qué archivos no deben subirse al repositorio?
+Respuesta:uploads/.gitkeep
+ logs/.gitkeep
+tmp/.gitkeep
+
+6. ¿Qué función cumple .gitignore?
+Respuesta: indica que archivos o carpetas no deben ser rastreados por git
+
+7. ¿Qué función cumple .gitkeep?
+Respuesta:permite conservar una carpeta vacia en git 
+
+8. ¿Qué carpeta se preparó para archivos subidos?
+Respuesta:uploads
+
+9. ¿Por qué los archivos dentro de uploads no deben subirse automáticamente?
+Respuesta:por que puede contener informacion sensible 
+
+10. ¿Qué consulta segura hice a IA?
+Respuesta:que funcion hace -p en este codigo mkdir -p uploads
+
+11. ¿Qué información evité compartir con IA?
+Respuesta:token credenciales y pantallasos donde haya visible informacion sencible 
+
+12. ¿Qué parte del procedimiento verifiqué manualmente?
+Respuesta:
