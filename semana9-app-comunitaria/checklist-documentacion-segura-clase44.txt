@@ -1,32 +1,32 @@
 CHECKLIST DE DOCUMENTACIÓN SEGURA - CLASE 44
 
-Nombre:
-Fecha:
+Nombre:Yesenia Bolaños
+Fecha:18-06-2026
 
-[ ] Comprendí qué es un procedimiento técnico.
-[ ] Comprendí por qué documentar evita dependencia.
-[ ] Comprendí qué es un servidor.
-[ ] Comprendí qué es hosting compartido.
-[ ] Comprendí qué es cPanel.
-[ ] Comprendí qué es un VPS.
-[ ] Comprendí qué es un servidor dedicado.
-[ ] Comprendí qué es la nube.
-[ ] Comprendí que Codespaces es entorno de práctica.
-[ ] Creé PROCEDIMIENTO-DESPLIEGUE-CLASE44.md.
-[ ] Documenté requisitos del entorno.
-[ ] Documenté variables sin secretos reales.
-[ ] Documenté comandos de instalación.
-[ ] Documenté ejecución con npm start.
-[ ] Documenté operación con PM2.
-[ ] Documenté rutas de verificación.
-[ ] Actualicé .gitignore.
-[ ] Creé uploads/.gitkeep.
-[ ] Creé logs/.gitkeep.
-[ ] Creé tmp/.gitkeep.
-[ ] Verifiqué que archivos en uploads no se suben.
-[ ] Verifiqué que logs locales no se suben.
-[ ] Verifiqué que temporales no se suben.
-[ ] Usé IA sin pegar tokens.
-[ ] Verifiqué la respuesta de IA.
-[ ] Revisé git status antes del commit.
-[ ] Hice commit con mensaje claro.
+[x] Comprendí qué es un procedimiento técnico.
+[x] Comprendí por qué documentar evita dependencia.
+[x] Comprendí qué es un servidor.
+[x] Comprendí qué es hosting compartido.
+[x] Comprendí qué es cPanel.
+[x] Comprendí qué es un VPS.
+[x] Comprendí qué es un servidor dedicado.
+[x] Comprendí qué es la nube.
+[x] Comprendí que Codespaces es entorno de práctica.
+[x] Creé PROCEDIMIENTO-DESPLIEGUE-CLASE44.md.
+[x] Documenté requisitos del entorno.
+[x] Documenté variables sin secretos reales.
+[x] Documenté comandos de instalación.
+[x] Documenté ejecución con npm start.
+[x] Documenté operación con PM2.
+[x] Documenté rutas de verificación.
+[x] Actualicé .gitignore.
+[x] Creé uploads/.gitkeep.
+[x] Creé logs/.gitkeep.
+[x] Creé tmp/.gitkeep.
+[x] Verifiqué que archivos en uploads no se suben.
+[x] Verifiqué que logs locales no se suben.
+[x] Verifiqué que temporales no se suben.
+[x] Usé IA sin pegar tokens.
+[x] Verifiqué la respuesta de IA.
+[x] Revisé git status antes del commit.
+[x] Hice commit con mensaje claro.
