@@ -20,4 +20,4 @@ Esta nota todavía no está lista para commit.
 
 ## Mensaje de cierre
 
-Mensaje original de cierre de la Semana 9.
+Desde tecnología, la Semana 9 demuestra que levantar, proteger, diagnosticar y documentar fortalece el proyecto.
