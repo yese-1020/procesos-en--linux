@@ -20,4 +20,4 @@ Esta nota todavía no está lista para commit.
 
 ## Mensaje de cierre
 
-Mensaje original de cierre de la Semana 9.
+Desde comunicaciones, la Semana 9 demuestra que documentar y verificar fortalece la confianza comunitaria.
