@@ -1,17 +1,17 @@
 # Checklist operativo - Semana 9
 
-- [ ] Abrí Codespaces.
-- [ ] Entré a `semana9-app-comunitaria`.
-- [ ] Verifiqué `server.js`.
-- [ ] Verifiqué `package.json`.
-- [ ] Verifiqué `.gitignore`.
-- [ ] Confirmé que `.env` no se sube.
+- [x] Abrí Codespaces.
+- [x] Entré a `semana9-app-comunitaria`.
+- [x] Verifiqué `server.js`.
+- [x] Verifiqué `package.json`.
+- [x] Verifiqué `.gitignore`.
+- [x] Confirmé que `.env` no se sube.
 - [ ] Instalé dependencias si era necesario.
-- [ ] Levanté la aplicación.
-- [ ] Verifiqué `/estado`.
-- [ ] Verifiqué `/diagnostico`.
-- [ ] Verifiqué `/api/info`.
+- [x] Levanté la aplicación.
+- [x] Verifiqué `/estado`.
+- [x] Verifiqué `/diagnostico`.
+- [x] Verifiqué `/api/info`.
 - [ ] Revisé PM2 si apliqué la operación.
-- [ ] Revisé logs si apliqué diagnóstico.
-- [ ] Documenté la verificación.
-- [ ] Documenté la práctica de Git.
+- [x] Revisé logs si apliqué diagnóstico.
+- [x] Documenté la verificación.
+- [x] Documenté la práctica de Git.

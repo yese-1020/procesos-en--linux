@@ -1,103 +1,167 @@
 # Procedimiento de despliegue y operación básica
 
 ## 1. Objetivo
-Documentar los pasos necesarios para instalar, configurar, ejecutar, verificar y operar la aplicación Node.js construida durante la Semana 9.
+Este documento explica cómo instalar, configurar, ejecutar y administrar la aplicación Node.js desarrollada durante la Semana 9 de forma segura.
 
-## 2. Entorno de trabajo
-- GitHub Codespaces
-- Node.js
-- npm
-- Express
-- dotenv
-- PM2
-- Git
+## 2. Herramientas necesarias
+- GitHub Codespaces (ambiente de práctica)
+- Node.js (entorno de ejecución)
+- npm (gestor de paquetes)
+- Express (marco web)
+- dotenv (gestor de variables)
+- PM2 (gestor de procesos)
+- Git (control de versiones)
 
-## 3. Requisitos previos
-Antes de iniciar, verificar:
-- Tener acceso al repositorio.
+## 3. Preparación inicial
+Antes de comenzar, asegurate de:
+- Tener acceso al repositorio en GitHub.
 - Abrir el proyecto en Codespaces.
-- Estar ubicado en la carpeta semana9-app-comunitaria.
-- Tener Node.js disponible.
-- Tener el archivo .env creado localmente.
-- No subir .env al repositorio.
+- Navegar a la carpeta `semana9-app-comunitaria`.
+- Verificar que Node.js esté disponible en el terminal.
+- Crear un archivo `.env` en tu máquina local (no en Git).
+- **Recordar**: nunca subir `.env` a GitHub.
 
-## 4. Variables de entorno necesarias
-Crear un archivo .env local con la siguiente estructura:
+## 4. Configuración de variables de entorno
+Crea un archivo `.env` en la carpeta `semana9-app-comunitaria` con las siguientes líneas:
 
+```
 PORT=3000
 APP_NAME=App Comunitaria Semana 9
 APP_ENV=development
 REQUIRE_TELEGRAM=true
-TELEGRAM_BOT_TOKEN=PEGAR_TOKEN_DE_PRACTICA_O_VARIABLE_LOCAL
+TELEGRAM_BOT_TOKEN=tu_token_de_practica_aqui
+```
 
-Advertencia: no usar tokens reales en prácticas públicas ni subir este archivo a GitHub.
+**Instrucciones de seguridad:**
+- Usa un token de prueba, no uno real.
+- Nunca compartas este archivo.
+- Git ignora automáticamente este archivo (`.gitignore` ya está configurado).
 
 ## 5. Instalación de dependencias
+Ejecuta:
+```bash
 npm install
+```
 
-Si el proyecto se está creando desde cero:
+Si estás creando el proyecto desde cero, instala también:
+```bash
 npm install express dotenv
 npm install pm2 --save-dev
+```
 
-## 6. Ejecución con Node.js
+**¿Qué hace?** Descarga y prepara todas las librerías necesarias para que la aplicación funcione.
+
+## 6. Ejecución con npm start (desarrollo)
+Inicia la aplicación:
+```bash
 npm start
+```
 
-Verificar en otra terminal:
+Para verificar que funciona, abre **otra terminal** y ejecuta:
+```bash
 curl http://localhost:3000/estado
+```
 
-## 7. Ejecución con PM2
-Iniciar:
+**Detener la aplicación:** Presiona `Ctrl+C` en el terminal donde está corriendo.
+
+## 7. Ejecución con PM2 (administración de procesos)
+PM2 permite ejecutar la aplicación en segundo plano y reiniciarla automáticamente.
+
+**Iniciar la aplicación:**
+```bash
 npx pm2 start server.js --name app-semana9
+```
 
-Listar procesos:
+**Ver todos los procesos activos:**
+```bash
 npx pm2 list
+```
 
-Reiniciar:
+**Reiniciar la aplicación:**
+```bash
 npx pm2 restart app-semana9
+```
 
-Detener:
+**Detener la aplicación:**
+```bash
 npx pm2 stop app-semana9
+```
 
-Revisar logs:
+**Ver últimas 20 líneas del registro:**
+```bash
 npx pm2 logs app-semana9 --lines 20
+```
 
-Eliminar proceso de PM2 al finalizar práctica:
+**Eliminar proceso (cuando termines):**
+```bash
 npx pm2 delete app-semana9
+```
 
-## 8. Rutas de verificación
-- /
-- /saludo
-- /estado
-- /api/info
-- /diagnostico
+## 8. Rutas disponibles para probar
+Una vez que la aplicación está ejecutándose, puedes acceder a:
+- `http://localhost:3000/` — Página principal
+- `http://localhost:3000/saludo` — Saludo personalizado
+- `http://localhost:3000/estado` — Estado de la aplicación
+- `http://localhost:3000/api/info` — Información técnica
+- `http://localhost:3000/diagnostico` — Verificación de diagnostico
 
-## 9. Archivos que no deben subirse
-- .env
-- *.env
-- node_modules/
-- uploads/*
-- logs/*
-- tmp/*
+## 9. Archivos que Git NO debe subir
+Los siguientes archivos y carpetas están protegidos en `.gitignore` (Git los ignora automáticamente):
 
-Solo se conservan carpetas vacías mediante .gitkeep.
+| Archivo/Carpeta | Razón |
+|---|---|
+| `.env` | Contiene variables sensibles |
+| `node_modules/` | Se genera con `npm install` |
+| `uploads/*` | Archivos cargados por usuarios |
+| `logs/*` | Registros locales de ejecución |
+| `tmp/*` | Archivos temporales |
 
-## 10. Verificación de seguridad antes del commit
+**Nota:** Las carpetas `uploads/`, `logs/` y `tmp/` tienen un archivo `.gitkeep` para que Git las reconozca como carpetas vacías.
+
+## 10. Verificación de seguridad antes de subir a GitHub
+Antes de hacer `git push`, verifica que Git está ignorando los archivos sensibles:
+
+```bash
 git status
+```
+
+Debería verse limpio (sin `.env`, `uploads/`, `logs/`, etc.).
+
+Para verificar específicamente:
+```bash
 git check-ignore -v .env
 git check-ignore -v uploads/documento-prueba.txt
 git check-ignore -v logs/app.log
 git check-ignore -v tmp/temporal.txt
+```
 
-## 11. Registro en Git
+Si todas las respuestas son afirmativas, tu configuración está segura.
+
+## 11. Subiendo cambios a GitHub
+Una vez que todo está configurado y probado:
+
+```bash
 git add .
-git commit -m "Clase 44 documenta despliegue y protege archivos locales"
+git commit -m "Clase 44: Documenta despliegue y protege archivos sensibles"
 git push -u origin clase-44-documentacion-ia-gitignore
+```
 
-## 12. Advertencias
-- No publicar tokens.
-- No subir .env.
-- No subir logs locales.
-- No subir archivos cargados por usuarios.
-- No pegar credenciales en IA.
-- No publicar capturas con secretos.
-- Validar todo comando antes de ejecutarlo.
+**¿Qué hace cada comando?**
+- `git add .` — Prepara todos los cambios
+- `git commit -m "mensaje"` — Guarda los cambios localmente con un mensaje descriptivo
+- `git push -u origin rama` — Envía los cambios a GitHub
+
+## 12. Advertencias de seguridad importantes
+✅ **NUNCA hagas esto:**
+- ❌ Publicar tokens o claves en GitHub
+- ❌ Subir el archivo `.env` al repositorio
+- ❌ Subir logs locales o archivos temporales
+- ❌ Pegar credenciales en consultas a IA
+- ❌ Compartir capturas de pantalla que muestren secretos
+
+✅ **SIEMPRE haz esto:**
+- ✔ Usa tokens de prueba en desarrollo
+- ✔ Verifica `git status` antes de hacer push
+- ✔ Revisa `.gitignore` regularmente
+- ✔ Valida todos los comandos antes de ejecutarlos
+- ✔ Mantén `.env` en tu máquina local únicamente
