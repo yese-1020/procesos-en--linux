@@ -7,11 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-  "start": "node server.js",
-  "dev": "node server.js"
-
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yese-1020/procesos-en--linux.git"
@@ -27,5 +25,6 @@
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1"
-  }
+  },
+  "devDependencies": {}
 }

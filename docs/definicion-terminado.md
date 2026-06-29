@@ -2,16 +2,16 @@
 
 Una tarea se considera terminada cuando cumple:
 
-- [ ] Tiene historia de usuario clara.
-- [ ] Tiene criterios de aceptación.
-- [ ] Fue movida en ClickUp.
-- [ ] Fue desarrollada o documentada.
-- [ ] Fue probada, si aplica.
-- [ ] Tiene evidencia.
-- [ ] Tiene commit claro.
-- [ ] No expone datos sensibles.
-- [ ] No sube archivo `.env`.
-- [ ] No contiene tokens reales.
-- [ ] No contiene datos personales reales.
+- [X] Tiene historia de usuario clara.
+- [X] Tiene criterios de aceptación.
+- [X] Fue movida en ClickUp.
+- [X] Fue desarrollada o documentada.
+- [X] Fue probada, si aplica.
+- [X] Tiene evidencia.
+- [X] Tiene commit claro.
+- [X] No expone datos sensibles.
+- [X] No sube archivo `.env`.
+- [X] No contiene tokens reales.
+- [X] No contiene datos personales reales.
 - [ ] Fue revisada por el rol correspondiente.
-- [ ] Está documentada.
+- [X] Está documentada.
