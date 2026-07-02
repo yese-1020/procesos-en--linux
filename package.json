@@ -1,0 +1,31 @@
+{
+  "name": "procesos-en--linux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+  "start": "node server.js",
+  "dev": "node server.js"
+
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yese-1020/procesos-en--linux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yese-1020/procesos-en--linux/issues"
+  },
+  "homepage": "https://github.com/yese-1020/procesos-en--linux#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
